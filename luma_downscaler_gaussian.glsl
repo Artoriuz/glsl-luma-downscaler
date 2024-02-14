@@ -15,7 +15,7 @@
 //!DESC Filter Radius
 //!TYPE float
 //!MINIMUM 0.0
-1.0
+2.0
 
 //!PARAM param1
 //!DESC Filter Param
