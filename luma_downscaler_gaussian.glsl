@@ -29,6 +29,7 @@
 //!SAVE LUMA_LR
 //!WIDTH OUTPUT.w
 //!HEIGHT LUMA.h
+//!WHEN OUTPUT.w LUMA.w / 1.000 < OUTPUT.h LUMA.h / 1.000 < *
 //!COMPONENTS 4
 
 float comp_wd(vec2 v) {
@@ -62,6 +63,7 @@ vec4 hook() {
 //!BIND LUMA_LR
 //!WIDTH OUTPUT.w
 //!HEIGHT OUTPUT.h
+//!WHEN OUTPUT.w LUMA.w / 1.000 < OUTPUT.h LUMA.h / 1.000 < *
 //!COMPONENTS 4
 
 float comp_wd(vec2 v) {

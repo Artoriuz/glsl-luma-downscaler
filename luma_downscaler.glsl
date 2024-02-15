@@ -16,6 +16,7 @@
 //!BIND LUMA
 //!WIDTH OUTPUT.w
 //!HEIGHT OUTPUT.h
+//!WHEN OUTPUT.w LUMA.w / 1.000 < OUTPUT.h LUMA.h / 1.000 < *
 //!COMPONENTS 4
 
 vec4 hook() {
